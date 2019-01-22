@@ -30,7 +30,7 @@ print(str)
 f=open('a.txt','w')
 f.write(str)
 f.close()
-cv2.imshow("img_rubbish", img_binary.astype("uint8"))
+cv2.imshow("img", img_binary.astype("uint8"))
 cv2.waitKey()
 
 
